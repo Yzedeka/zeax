@@ -77,8 +77,8 @@ linker.ld   Linker script
 ```
 
 ## Communication and Support
-Discord Server: [dsc.gg/uKAavXeZcy](https://discord.gg/uKAavXeZcy)
-Email: [hi@yzedeka.org](mailto:hi@yzedeka.org)
+- Discord Server: [dsc.gg/uKAavXeZcy](https://discord.gg/uKAavXeZcy)
+- Email: [hi@yzedeka.org](mailto:hi@yzedeka.org)
 
 ## License
 
