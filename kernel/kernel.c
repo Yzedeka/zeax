@@ -1134,7 +1134,7 @@ void file_list()
 void print_prompt()
 {
     print("\n\n");
-    set_color(COLOR_LIGHT_GREEN);
+    set_color(COLOR_WHITE);
     print(username);
     print("@zeaxos:~$ ");
     set_color(COLOR_LIGHT_GREY);
@@ -1339,16 +1339,18 @@ void kernel_main()
 
     print_color("Welcome to ZeaxOS!\n\n", COLOR_LIGHT_CYAN);
 
-    print("Kernel: ");
-    print_color("v1.2.1\n", COLOR_YELLOW);
+    print_color("Kernel: ", COLOR_YELLOW);
+    print_color("v1.2.2\n", COLOR_CYAN);
 
-    print("OS: ");
-    print_color("Zeax\n", COLOR_YELLOW);
+    print_color("OS: ", COLOR_YELLOW);
+    print_color("ZeaxOS\n", COLOR_CYAN);
 
-    print("RAM: ");
-    set_color(COLOR_YELLOW);
+    print_color("RAM: ", COLOR_YELLOW);
+    set_color(COLOR_CYAN);
     print_number(get_ram_kb() / 1024);
-    print(" MB\n");
+    print("MB\n");
+
+    print("Type help for help with commands.\n");
     set_color(COLOR_LIGHT_GREY);
 
 
