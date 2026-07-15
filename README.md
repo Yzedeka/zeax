@@ -1,5 +1,5 @@
 # Zeax OS
-Version: 1.2.2
+Version: 1.2.3
 [Zeax.org](https://zeax.org/)
 
 > A Open Source Toy operating system built from scratch in C and x86 Assembly.
