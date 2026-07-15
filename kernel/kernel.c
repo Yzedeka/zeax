@@ -1339,18 +1339,21 @@ void kernel_main()
 
     print_color("Welcome to ZeaxOS!\n\n", COLOR_LIGHT_CYAN);
 
-    print_color("Kernel: ", COLOR_YELLOW);
-    print_color("v1.2.2\n", COLOR_CYAN);
+    print_color(username, COLOR_WHITE);
+    print_color("@zeaxos\n", COLOR_WHITE);
+    print("-----------------\n\n");
 
-    print_color("OS: ", COLOR_YELLOW);
-    print_color("ZeaxOS\n", COLOR_CYAN);
+    print_color("OS: ", COLOR_CYAN);
+    print_color("ZeaxOS x86_64\n", COLOR_WHITE);
 
-    print_color("RAM: ", COLOR_YELLOW);
-    set_color(COLOR_CYAN);
-    print_number(get_ram_kb() / 1024);
-    print("MB\n");
+    print_color("Kernel: ", COLOR_CYAN);
+    print_color("Zeax v1.2.3\n", COLOR_WHITE);
 
-    print("Type help for help with commands.\n");
+    print_color("Terminal: ", COLOR_CYAN);
+    print_color("ZTerm 1.1.2\n\n", COLOR_WHITE);
+
+    print("Email hi@yzedeka.org if you find any bugs!\n");
+    print("Type help for a list of commands.\n");
     set_color(COLOR_LIGHT_GREY);
 
 
